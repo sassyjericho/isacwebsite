@@ -1,0 +1,198 @@
+
+html {
+  scroll-behavior: smooth;
+background-color: #000000;}
+
+body {
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+.image-container > img {
+  height: 100vh;
+  margin-top: 20px;
+}
+
+section {
+  height: 100vh;
+}
+
+.custom {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffff;
+}
+
+#home {
+  background-color: #000000;
+}
+
+#algorithms {
+  background-color: #111111;
+    height: 100vh;
+}
+
+#explanations {
+  background-color: #222222;
+  height: 100vh;
+margin-top:-200px;
+ 
+}
+
+
+#nav-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  height: 4em;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  height: 4em;
+  line-height: 4em;
+  flex-grow: 1;
+}
+
+.nav-link,
+.logo {
+  padding: 0 1em;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1.logo {
+  font-weight: 300;
+  font-size: 1.75em;
+  line-height: 0.75em;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btn-nav {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#nav-wrapper {
+  overflow: hidden;
+}
+
+#nav {
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.nav-link {
+    border-top: none;
+}
+
+.right {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  height: auto;
+}
+
+.btn-nav {
+  display: none;
+}
+
+.nav-link {
+ color: #fff;
+ text-decoration: none;
+ margin-right: 20px;
+}
+
+.header {
+  padding: 200px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image: url('https://images4.alphacoders.com/270/27094.jpg');
+  background-position: center;
+  background-size: contain;
+}
+
+.content {
+  margin-top: 200px;
+  padding: 100px;
+}
+.container{
+  padding: 100px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row_explanation{
+  margin: 0 -5px;
+  display: flex;
+  justify-content: space-between;
+}
+.column_explanation{
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+  margin: 0 -5px;
+}
+    
+
+.card_backtracking{
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/BackTracking%20Algorithm%20-%20Soni/state-space-tree-in-backtracking-algorithm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+}
+.card_greedy{
+  background-color: #fff;
+  background-image: url("https://www.programiz.com/sites/tutorial2program/files/greedy_approach_longest.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+}
+.card_third{
+  background-color: #fff;
+  background-image: url("https://i0.wp.com/kodebinary.com/wp-content/uploads/2021/04/image-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+}
+
+.text {
+  color: #fff
+}
+
+.center{
+  text-align: center;
+  margin-bottom: 80px;
+}
